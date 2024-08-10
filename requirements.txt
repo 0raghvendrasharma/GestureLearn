@@ -8,4 +8,4 @@ google-generativeai
 speechrecognition
 cvzone
 streamlit-lottie
-pyaudio
+pyaudio==0.2.11
