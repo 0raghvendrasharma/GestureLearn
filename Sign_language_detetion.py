@@ -163,6 +163,8 @@ def app():
         thumb_tip = 4
         while True:
             ret, img = vid.read()
+            if not ret or img is None:  # Check if img is None or read was not successful
+                break  # Exit the loop or handle the error accordingly
             img = cv2.flip(img, 1)
             h, w, c = img.shape
             img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
