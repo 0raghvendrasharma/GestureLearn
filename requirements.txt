@@ -4,3 +4,6 @@ streamlit
 mediapipe
 numpy
 Pillow
+google-generativeai
+speechrecognition
+cvzone
