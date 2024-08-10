@@ -156,7 +156,7 @@ def app():
             </style>
             """, unsafe_allow_html=True
         )
-        if st.button('Go to Math Solver', key="go_to_math_solver", help="Switch to Math Solver"):
+        if st.button('Go to Math Solver', key="go_math_solver", help="Switch to Math Solver"):
             st.session_state.page = "math_solver"
         
         finger_tips = [8, 12, 16, 20]
