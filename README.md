@@ -26,10 +26,6 @@ To run the application, use the following command:
 ```bash
 streamlit run mainStream.py
 ```
-
-## License 📜
-This project is licensed under the MIT License.
-
 ## Purpose 🎯
 The purpose of this project is to provide a platform for gesture recognition and sign language detection. It aims to help users learn and interact with sign language and solve mathematical problems using gestures.
 
